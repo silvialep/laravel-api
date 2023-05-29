@@ -56,9 +56,9 @@
     </div>
 
     <div class="mb-4">
-      <label for="content">Contenuto</label>
-      <input class="form-control @error('content') is-invalid @enderror" type="text" id="content" name="content" value="{{old('content') ?? $project->content}}">
-      @error('content')
+      <label for="description">Descrizione</label>
+      <input class="form-control @error('description') is-invalid @enderror" type="text" id="description" name="description" value="{{old('description') ?? $project->description}}">
+      @error('description')
       <div class="invalid-feedback">
         {{$message}}
       </div>
@@ -67,9 +67,9 @@
 
 
     <div class="mb-2">
-      <label for="description">Descrizione</label>
-      <textarea class="form-control @error('description') is-invalid @enderror" id="description" name="description">{{old('description') ?? $project->description}}</textarea>
-      @error('description')
+      <label for="content">Contenuto</label>
+      <textarea class="form-control @error('content') is-invalid @enderror" id="content" name="content">{{old('content') ?? $project->content}}</textarea>
+      @error('content')
       <div class="invalid-feedback">
         {{$message}}
       </div>
