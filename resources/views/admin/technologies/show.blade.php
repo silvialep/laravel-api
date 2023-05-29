@@ -5,7 +5,9 @@
 <div class="main pt-5" style="height: calc(100vh - 350px)">
   <div class="d-flex justify-content-between align-items-center">
     <h1>{{$technology->name}}</h1>
-    <small class="badge rounded-pill" style="background-color: {{$technology->color}}; text-decoration:none; color: {{$technology->color}};">{{'test'}}{{'test'}}</small>
+    <div>
+      <small>Colore: </small><small class="badge rounded-pill" style="background-color: {{$technology->color}}; text-decoration:none; color: {{$technology->color}};">{{'t'}}</small>
+    </div>
   </div>
   <hr>
 

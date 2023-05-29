@@ -19,9 +19,9 @@
   </div>
   <div class="d-flex justify-content-between">
     <div>
-      <strong>{{$project->description}}</strong>
+      <strong>{{$project->content}}</strong>
       <p>
-        {{$project->content}}
+        {{$project->description}}
       </p>
     </div>
     <div>
